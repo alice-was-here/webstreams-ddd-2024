@@ -23,7 +23,7 @@ A very uninteresting server. You will need to start it with:
 `pnpm run server`
 
 ### Bad Client
-An example of why a more niave approach (parsing the entire file into memory as a string) may not always work. You can try this approach via:
+An example of why a more naive approach (parsing the entire file into memory as a string) may not always work. You can try this approach via:
 
 `pnpm run bad-client`
 
