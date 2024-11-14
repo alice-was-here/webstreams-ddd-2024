@@ -1,0 +1,24 @@
+{
+  "name": "ddd-webstreams-2024",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "generate": "tsx src/generateFile.ts",
+    "server": "tsx src/server.ts",
+    "client": "tsx src/client.ts",
+    "bad-client": "tsx src/badClient.ts"
+
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^18.19.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "tsx": "^4.19.2"
+  }
+}
